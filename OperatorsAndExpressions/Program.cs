@@ -3,7 +3,9 @@
 
 //Exercise 1
 
-Console.WriteLine("Hello" + " " + "World!"); // Hello World
+Console.WriteLine("--------- Exercise 1 --------"); // 
+
+Console.WriteLine("Hello" + " " + "World!"); // Hello World!
 
 Console.WriteLine(2 + 4); // 6
 
@@ -37,16 +39,47 @@ Console.WriteLine(34-2 > 36); // false
 
 Console.WriteLine(4 == 4 ? "One": "Two"); // true
 
+
+
 //Exercise 2
 
-//Console.WriteLine(); //
+Console.WriteLine("--------- Exercise 2 --------"); // 
 
-//Console.WriteLine(); //
+Console.WriteLine(1 + "" + "="); // 1= 
 
-//Console.WriteLine(); //
+Console.WriteLine(3+6*2); // 15 
 
-//Console.WriteLine(); //
+Console.WriteLine("2" + 3 * 2); // 26 
 
-//Console.WriteLine(); //
+Console.WriteLine(2 + 3 + "4" + 4 / 2); // 542 
 
-//Console.WriteLine(); //
+Console.WriteLine("2" + (7 - 4)); // error för att + är i string mode och inte i en beräkning. Parantes runt beräkningen ger 23. 
+
+Console.WriteLine(7 / 3); // 2 eftersom det är int
+
+Console.WriteLine(2 * (4 + 2)); // 12 eftersom parantesern räknas först 
+
+Console.WriteLine(3 + (5 + "G")); // 35G 
+
+Console.WriteLine(1 + 4 / 3); // 2 
+
+Console.WriteLine(3 == 3 && 4 != 6); // true 
+
+Console.WriteLine(3 == 4 || 4 != 4); // false 
+
+Console.WriteLine(4 > 9 ? "Lucene" : 4 + 89); // 93
+
+
+// Exercise 3
+
+//Console.WriteLine("--------- Exercise 3 --------"); // 
+
+//Console.WriteLine(); // 
+
+//Console.WriteLine(); // 
+
+//Console.WriteLine(); // 
+
+//Console.WriteLine(); // 
+
+//Console.WriteLine(); // 
